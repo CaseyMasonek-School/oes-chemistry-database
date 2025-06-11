@@ -8,5 +8,8 @@ pip install -r requirements.txt
 # Apply any outstanding database migrations
 python manage.py migrate
 
+# Convert static asset files
+python manage.py collectstatic --no-input
+
 # Migrate CSV data
 python manage.py migratefromsheets
