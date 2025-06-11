@@ -1,20 +1,20 @@
 databases:
-  - name: mysitedb
+  - name: chemdb
     plan: free
-    databaseName: mysite
-    user: mysite
+    databaseName: chemdb
+    user: chemdb
 
 services:
   - type: web
     plan: free
-    name: mysite
+    name: chem_inventory
     runtime: python
     buildCommand: './build.sh'
     startCommand: 'python -m gunicorn chem_inventory.asgi:application -k uvicorn.workers.UvicornWorker'
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: mysitedb
+          name: chemdb
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
