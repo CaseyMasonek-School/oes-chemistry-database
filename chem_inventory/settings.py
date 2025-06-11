@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-$8_sr90yohdws#ixe2+jia1k$43q7(srrxx@5j81oa3m43jmy+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['chem_inventory.onrender.com']
+ALLOWED_HOSTS = ['chem-inventory.onrender.com']
 
 
 # Application definition
