@@ -1,0 +1,20 @@
+{% include "header.html" %} 
+
+<a href="/" id="back">←Back</a>
+
+<div class="content">
+
+<h2>{{ name }}</h2>
+
+<!-- List each attribute and value in a loop -->
+{% for key,value in item.items %}
+    {% if value %}
+        <b>{{ key.title }}:</b>&nbsp;<span>{{ value }}</span><br>
+    {% endif %}
+{% endfor %}
+
+</div>
+
+<!-- Load static files -->
+{% load static %}
+<link href="{% static 'styles.css' %}" rel="stylesheet">

@@ -1,0 +1,12 @@
+<!-- List items -->
+{% if not items %}
+<h2>Nothing matched your search...</h2>
+{% else %}
+<ul>
+    {% for item in items %}
+    <li>
+        <a href="/{{ item.id }}">{{ item.name }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

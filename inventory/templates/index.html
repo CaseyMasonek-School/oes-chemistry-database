@@ -1,0 +1,34 @@
+{% include "header.html" %} 
+
+<div class="content">
+
+<form action="/" method="get" id="filter">
+    <!-- Form for filtering data -->
+
+    <select name="room" id="room">
+        <option value="">Filter by room</option>
+        
+        {% for room in rooms %}
+            {% if room.room == room_query %}
+                <option value="{{ room.room }}" selected="selected">{{ room.room }}</option>
+            {% else %}
+                <option value="{{ room.room }}">{{ room.room }}</option>
+            {% endif %}
+        {% endfor %}
+    </select>
+
+    <input id="search" placeholder="What are you looking for?" name="name" value="{{ name_query }}">
+</form>
+
+<div id="results"></div>
+
+</div>
+
+<!-- JQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<!-- Load static files -->
+{% load static %}
+<link href="{% static 'styles.css' %}" rel="stylesheet">
+
+<script src="{% static 'form.js' %}"></script>

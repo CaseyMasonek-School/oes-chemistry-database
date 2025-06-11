@@ -1,0 +1,65 @@
+/*-- Misc --*/
+
+:root {
+    font-family: sans-serif;
+}
+
+#back {
+    display: inline-block;
+    padding: 5px 20px 0px 20px !important;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+/*--- Header styles ---*/
+
+#header-div {
+    width: 100%;
+    background-color: #006648;
+    color: white;
+    padding: 5px 20px;  
+}
+
+.content {
+    padding: 20px;  
+}
+
+
+#header-div h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+body {
+    margin: 0;
+}
+
+/*--- Form styles ---*/
+
+#filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+#room {
+    width: 30%;
+    display: inline;
+}
+
+#search {
+    width: 69%;
+    display: inline;
+}
+
+/*-- List styles --*/
+
+a {
+    color: #006648
+}
+
+ul li {
+    padding-bottom: 5px;
+}

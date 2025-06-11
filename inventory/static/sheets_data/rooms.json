@@ -1,0 +1,70 @@
+[
+    {
+        "name":"Student Research Lab (DC 106)",
+        "path":"inventory/static/sheets_data/student_research_lab_dc_106.csv"
+    },
+    {
+        "name":"Biology (DC 108)",
+        "path":"inventory/static/sheets_data/biology_dc_108.csv"
+    },
+    {
+        "name": "Optical Lab (DC 223)",
+        "path":"inventory/static/sheets_data/optical_lab_dc_223.csv"
+    },
+    {
+        "name": "Chemistry (DC 112)",
+        "path":"inventory/static/sheets_data/chemistry_dc_112.csv"
+    },
+    {
+        "name": "Storage Room (DC 120)",
+        "path":"inventory/static/sheets_data/storage_room_dc_120.csv"
+    },
+    {
+        "name": "Tool Chest",
+        "path":"inventory/static/sheets_data/tool_chest.csv"
+    },
+    {
+        "name": "Anatomy (DC 121)",
+        "path":"inventory/static/sheets_data/anatomy_dc_121.csv"
+    },
+    {
+        "name": "Physics (DC 122)",
+        "path":"inventory/static/sheets_data/physics_dc_122.csv"
+    },
+    {
+        "name": "US 3rd Floor",
+        "path":"inventory/static/sheets_data/us_third_floor.csv"
+    },
+    {
+        "name": "1st Floor Trophy Cabinets",
+        "path":"inventory/static/sheets_data/first_floor_trophy_cabinets.csv"
+    },
+    {
+        "name": "MS Tools Zeus",
+        "path":"inventory/static/sheets_data/ms_tools_zeus.csv"
+    },
+    {
+        "name": "MS Tools Mae Jemison",
+        "path":"inventory/static/sheets_data/ms_tools_mae_jemison.csv"
+    },
+    {
+        "name": "MS Tools Pauling",
+        "path":"inventory/static/sheets_data/ms_tools_pauling.csv"
+    },
+    {
+        "name": "MS Consumables Zeus",
+        "path":"inventory/static/sheets_data/ms_consumables_zeus.csv"
+    },
+    {
+        "name": "MS Consumables Mae Jemison",
+        "path":"inventory/static/sheets_data/ms_consumables_mae_jemison.csv"
+    },
+    {
+        "name": "MS Science Materials Zeus",
+        "path":"inventory/static/sheets_data/ms_science_materials_zeus.csv"
+    },
+    {
+        "name": "MS Science Materials Mae Jemison",
+        "path":"inventory/static/sheets_data/ms_science_materials_mae_jemison.csv"
+    }
+]
